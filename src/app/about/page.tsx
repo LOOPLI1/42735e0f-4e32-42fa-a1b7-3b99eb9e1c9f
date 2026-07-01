@@ -28,9 +28,9 @@ export default function AboutPage() {
         image="/images/about.jpg"
         imageAlt="Well-maintained excavator ready for hire in Wollongong"
         stats={[
-          { label: "Dedicated Excavator", value: "1", suffix: "" },
-          { label: "Fully Insured", value: "100", suffix: "%" },
-          { label: "Hidden Fees", value: "0", suffix: "" },
+          { label: "Dedicated Excavator", value: "1" },
+          { label: "Fully Insured", value: "100%" },
+          { label: "Hidden Fees", value: "0" },
         ]}
       />
       <AboutValues
@@ -38,16 +38,19 @@ export default function AboutPage() {
         subheading="We're a no-fuss operation built on reliability, transparency, and getting the job done."
         items={[
           {
+            icon: "wrench",
             title: "Always Ready",
             description:
               "Our excavator is cleaned, serviced, and ready for hire — no surprises on the day of your job.",
           },
           {
+            icon: "tag",
             title: "Straightforward Pricing",
             description:
               "Simple day-rate hire with no hidden fees. Know exactly what you're paying before you book.",
           },
           {
+            icon: "map-pin",
             title: "Local & Reliable",
             description:
               "We're based in the Wollongong region and know the local market. We're easy to reach and quick to respond.",
