@@ -32,7 +32,11 @@ export default function ContactPage() {
         address="Wollongong, NSW 2500"
         phone="02 0000 0000"
         email="info@excavatorhirewollongong.com.au"
-        hours="Mon–Fri: 7:00am – 5:00pm | Sat: 7:00am – 12:00pm | Sun: Closed"
+        hours={[
+          { day: "Monday – Friday", time: "7:00am – 5:00pm" },
+          { day: "Saturday", time: "7:00am – 12:00pm" },
+          { day: "Sunday", time: "Closed" },
+        ]}
         mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.0!2d150.8931!3d-34.4278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDI1JzQwLjEiUyAxNTDCsDUzJzM1LjIiRQ!5e0!3m2!1sen!2sau!4v1680000000000!5m2!1sen!2sau"
       />
       <FooterColumns
