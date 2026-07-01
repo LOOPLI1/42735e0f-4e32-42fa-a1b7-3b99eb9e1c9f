@@ -37,18 +37,30 @@ export default function HomePage() {
         heading="What We Offer"
         subheading="Simple, no-fuss excavator hire built around the needs of working tradies and construction companies."
         items={[
-          "Day Rate Hire — Flexible excavator rental charged by the day, so you only pay for what you need.",
-          "Self-Operated Hire — Bring your own qualified operator and get straight to work with our well-maintained machine.",
-          "Local Coverage — Servicing Wollongong, Shellharbour, Kiama and surrounding suburbs across the Illawarra region.",
+          {
+            icon: "calendar",
+            title: "Day Rate Hire",
+            description: "Flexible excavator rental charged by the day, so you only pay for what you need.",
+          },
+          {
+            icon: "hard-hat",
+            title: "Self-Operated Hire",
+            description: "Bring your own qualified operator and get straight to work with our well-maintained machine.",
+          },
+          {
+            icon: "map-pin",
+            title: "Local Coverage",
+            description: "Servicing Wollongong, Shellharbour, Kiama and surrounding suburbs across the Illawarra region.",
+          },
         ]}
       />
       <TrustBadges
         items={[
-          "Locally Owned & Operated",
-          "Fully Insured",
-          "Clean & Serviced Machine",
-          "Simple Day-Rate Pricing",
-          "No Hidden Fees",
+          { icon: "home", label: "Locally Owned & Operated" },
+          { icon: "shield-check", label: "Fully Insured" },
+          { icon: "wrench", label: "Clean & Serviced Machine" },
+          { icon: "tag", label: "Simple Day-Rate Pricing" },
+          { icon: "check-circle", label: "No Hidden Fees" },
         ]}
       />
       <CtaBanner
