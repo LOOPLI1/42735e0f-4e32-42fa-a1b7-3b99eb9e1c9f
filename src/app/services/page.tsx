@@ -29,21 +29,29 @@ export default function ServicesPage() {
             title: "Day Rate Excavator Hire",
             description:
               "Hire our excavator by the day at a competitive flat rate. Perfect for earthworks, trenching, demolition prep, landscaping, and more. Available to qualified operators across the Wollongong region.",
+            image: "/images/service-day-rate.jpg",
+            imageAlt: "Excavator available for day rate hire in Wollongong",
           },
           {
             title: "Self-Operated Hire",
             description:
               "Our hire is self-operated, meaning you supply the licensed and competent operator. The machine arrives clean and serviced — ready to get straight to work on your site.",
+            image: "/images/service-self-operated.jpg",
+            imageAlt: "Self-operated excavator hire for qualified operators",
           },
           {
             title: "Flexible Booking",
             description:
               "Need the machine for a day or several days in a row? We work around your schedule. Contact us to check availability and lock in your booking.",
+            image: "/images/service-flexible.jpg",
+            imageAlt: "Flexible excavator booking across Wollongong",
           },
           {
             title: "Local Delivery Area",
             description:
               "We service Wollongong, Shellharbour, Kiama, Dapto, Albion Park, Fairy Meadow, and surrounding Illawarra suburbs. Get in touch to confirm coverage in your area.",
+            image: "/images/service-delivery.jpg",
+            imageAlt: "Excavator delivery across Wollongong and Illawarra",
           },
         ]}
       />
